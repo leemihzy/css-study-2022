@@ -1,0 +1,16 @@
+.flex {
+  display: flex;
+  overflow: auto;
+  /* width: 150px; */
+  scroll-snap-type: x mandatory;
+}
+
+.box {
+  min-width: 33.333%;
+  height: 50px;
+}
+
+.badge {
+  padding: 12px;
+  border: 1px solid royalblue;
+}
